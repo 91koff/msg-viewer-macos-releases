@@ -15,8 +15,11 @@
 
 ## Возможности
 
-Текущий выпуск: **1.2.2 (12)**.
+Текущий выпуск: **1.3.0 (15)**.
 
+- Экспорт текущего письма в EML из верхней панели или меню «Файл» (**⇧⌘E**), с оформлением и доступными вложениями.
+- Быстрый просмотр MSG в Finder по пробелу: поля письма, HTML и встроенные картинки.
+- Три режима **HTML / TEXT / HEADERS**. HEADERS показывает исходные заголовки с копированием, поиском и масштабом; **⌥⌘U** включает этот режим.
 - Перетаскивание одного или нескольких MSG на любую область окна со скруглённой подсветкой, в том числе поверх текста и вложений после изменения размера.
 - Русский и английский интерфейс; по умолчанию язык macOS. Настройки: **⌘,**.
 - Текст, HTML-оформление, таблицы и inline-картинки.
@@ -24,7 +27,7 @@
 - Цветные линии и вложенные отступы истории HTML-переписки; режим Text без цветных линий. Перенос длинных строк, ссылок и таблиц по ширине окна.
 - Quick Look, открытие и сохранение вложений, просмотр вложенных писем.
 - Поиск **⌘F**, масштаб **⌘+ / ⌘−**, сброс **⌘0**, несколько окон и сохранение масштаба.
-- Автоматический размер для каждого письма, по умолчанию до 30% ширины экрана. При выключенном автоматическом режиме ручной размер запоминается. Стартовое окно вмещает все три значка; версия приложения видна внизу. Настройки стали компактнее и открываются на мониторе окна письма.
+- Автоматический размер для каждого письма, обычно до 30% ширины экрана, с минимумом под всю панель кнопок. Панель вмещается также при восстановлении размера и ручном сужении, включая запас под возврат и обновление. При выключенном автоматическом режиме ручной размер запоминается. Стартовое окно вмещает все три значка; версия приложения видна внизу. Настройки стали компактнее и открываются на мониторе окна письма.
 - Системная, светлая и тёмная тема. Оригинальное оформление HTML-письма сохраняется.
 - Проверка обновлений: при каждом запуске, раз в день, неделю или месяц; по умолчанию — неделя. В настройках «Проверить сейчас» меняется на «Обновить» при обнаружении новой версии.
 - Значок обновления справа вверху и кнопка «Обновить» в настройках сразу запускают загрузку, проверку подписи, установку и перезапуск с восстановлением открытых писем.
@@ -39,7 +42,9 @@ Download and unzip `MSG-Viewer-macOS.zip`, then move **MSG Viewer.app** to Appli
 
 To open `.msg` files by double-click: Finder → Get Info → Open with → MSG Viewer → Change All. Multiple messages open in separate windows.
 
-Current release: **1.2.2 (12)**. Settings (**⌘,**) include Russian/English/system language, appearance, per-message automatic sizing, a separate inline-image section and update frequency. Turn automatic sizing off to remember manual sizes. Compact Settings follow the message window’s display. The startup window fits all three toolbar buttons, and the app version appears at the bottom. Updates are checked only at launch, weekly by default, with every-launch/daily/monthly options. In Settings, Check now changes to Update when a newer version is found. The update badge at the top right and the Update button immediately start download, installation and restart, without an extra confirmation. Signed updates are verified before replacing the app; the previous version is restored if activation fails. Open messages are reopened after a successful update.
+Current release: **1.3.0 (15)**. Settings (**⌘,**) include Russian/English/system language, appearance, per-message automatic sizing, a separate inline-image section and update frequency. Turn automatic sizing off to remember manual sizes. Compact Settings follow the message window’s display. The startup window fits all three toolbar buttons, and the app version appears at the bottom. Updates are checked only at launch, weekly by default, with every-launch/daily/monthly options. In Settings, Check now changes to Update when a newer version is found. The update badge at the top right and the Update button immediately start download, installation and restart, without an extra confirmation. Signed updates are verified before replacing the app; the previous version is restored if activation fails. Open messages are reopened after a successful update.
+
+Export the current message as EML from the toolbar or File menu (**⇧⌘E**). Preview MSG in Finder with the Space bar. Switch **HTML / TEXT / HEADERS**; **⌥⌘U** shows the original headers with copy, find and zoom. The minimum message-window width fits every toolbar action, including Back and Update, even when restoring or resizing.
 
 Drag one or more MSG files onto the window; a rounded highlight marks the drop area. Supports formatted HTML, tables, inline images, attachments, embedded messages, Quick Look, find (**⌘F**), zoom and **⌘0** to reset. Long lines and tables wrap to the window. HTML quote levels have colored bars; Text mode has none. Messages are processed locally and never uploaded. Remote images and message scripts are disabled. Maximum MSG size: 256 MB; encrypted messages, PST/OST and OLE objects are not supported.
 
