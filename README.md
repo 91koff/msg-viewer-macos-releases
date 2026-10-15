@@ -15,7 +15,7 @@
 
 ## Возможности
 
-Текущий выпуск: **1.2.0 (10)**.
+Текущий выпуск: **1.2.1 (11)**.
 
 - Перетаскивание одного или нескольких MSG на любую область окна со скруглённой подсветкой, в том числе поверх текста и вложений после изменения размера.
 - Русский и английский интерфейс; по умолчанию язык macOS. Настройки: **⌘,**.
@@ -26,8 +26,8 @@
 - Поиск **⌘F**, масштаб **⌘+ / ⌘−**, сброс **⌘0**, несколько окон и сохранение масштаба.
 - Автоматический размер для каждого письма, по умолчанию до 30% ширины экрана. При выключенном автоматическом режиме ручной размер запоминается. Без файла — компактное стартовое окно; настройки открываются на мониторе окна письма.
 - Системная, светлая и тёмная тема. Оригинальное оформление HTML-письма сохраняется.
-- Проверка обновлений при запуске: день, неделя, месяц; по умолчанию — неделя. Ручная проверка в настройках.
-- Значок обновления справа вверху запускает загрузку, проверку подписи, установку и перезапуск с восстановлением открытых писем.
+- Проверка обновлений: при каждом запуске, раз в день, неделю или месяц; по умолчанию — неделя. В настройках «Проверить сейчас» меняется на «Обновить» при обнаружении новой версии.
+- Значок обновления справа вверху и кнопка «Обновить» в настройках сразу запускают загрузку, проверку подписи, установку и перезапуск с восстановлением открытых писем.
 
 Письма и вложения не отправляются на серверы. Интернет нужен только для обновлений. Исходные MSG не изменяются. Картинки из интернета и скрипты письма отключены. Для отображения картинки без интернета она должна быть сохранена внутри MSG.
 
@@ -39,7 +39,7 @@ Download and unzip `MSG-Viewer-macOS.zip`, then move **MSG Viewer.app** to Appli
 
 To open `.msg` files by double-click: Finder → Get Info → Open with → MSG Viewer → Change All. Multiple messages open in separate windows.
 
-Current release: **1.2.0 (10)**. Settings (**⌘,**) include Russian/English/system language, appearance, per-message automatic sizing, a separate inline-image section and update frequency. Turn automatic sizing off to remember manual sizes. Settings follow the message window’s display. Updates are checked only at launch, weekly by default, with daily/monthly options and a manual Check now button. An update badge at the top right starts download and installation. Signed updates are verified before replacing the app; the previous version is restored if activation fails. Open messages are reopened after a successful update.
+Current release: **1.2.1 (11)**. Settings (**⌘,**) include Russian/English/system language, appearance, per-message automatic sizing, a separate inline-image section and update frequency. Turn automatic sizing off to remember manual sizes. Settings follow the message window’s display. Updates are checked only at launch, weekly by default, with every-launch/daily/monthly options. In Settings, Check now changes to Update when a newer version is found. The update badge at the top right and the Update button immediately start download, installation and restart, without an extra confirmation. Signed updates are verified before replacing the app; the previous version is restored if activation fails. Open messages are reopened after a successful update.
 
 Drag one or more MSG files onto the window; a rounded highlight marks the drop area. Supports formatted HTML, tables, inline images, attachments, embedded messages, Quick Look, find (**⌘F**), zoom and **⌘0** to reset. Long lines and tables wrap to the window. HTML quote levels have colored bars; Text mode has none. Messages are processed locally and never uploaded. Remote images and message scripts are disabled. Maximum MSG size: 256 MB; encrypted messages, PST/OST and OLE objects are not supported.
 
