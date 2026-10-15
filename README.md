@@ -15,6 +15,7 @@
 
 ## Возможности
 
+- Перетаскивание одного или нескольких MSG на окно со скруглённой подсветкой области сброса.
 - Русский и английский интерфейс; по умолчанию язык macOS. Настройки: **⌘,**.
 - Текст, HTML-оформление, таблицы и inline-картинки.
 - Поля отправителя, получателей, копии и даты; вложения над текстом письма.
@@ -36,7 +37,7 @@ To open `.msg` files by double-click: Finder → Get Info → Open with → MSG 
 
 Settings (**⌘,**) include Russian/English/system language, appearance and update frequency. Updates are checked only at launch, weekly by default, with daily/monthly options and a manual Check now button. An update badge at the top right starts download and installation. Signed updates are verified before replacing the app; the previous version is restored if activation fails. Open messages are reopened after a successful update.
 
-Supports formatted HTML, tables, inline images, attachments, embedded messages, Quick Look, find (**⌘F**) and zoom. Messages are processed locally and never uploaded. Remote images and message scripts are disabled. Maximum MSG size: 256 MB; encrypted messages, PST/OST and OLE objects are not supported.
+Drag one or more MSG files onto the window; a rounded highlight marks the drop area. Supports formatted HTML, tables, inline images, attachments, embedded messages, Quick Look, find (**⌘F**) and zoom. Messages are processed locally and never uploaded. Remote images and message scripts are disabled. Maximum MSG size: 256 MB; encrypted messages, PST/OST and OLE objects are not supported.
 
 ## Release files
 
