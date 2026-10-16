@@ -15,7 +15,7 @@
 
 ## Возможности
 
-Текущий выпуск: **1.3.0 (15)**.
+Текущий выпуск: **1.3.1 (16)**. Исправлены скачки окна при ручном изменении размера.
 
 - Экспорт текущего письма в EML из верхней панели или меню «Файл» (**⇧⌘E**), с оформлением и доступными вложениями.
 - Быстрый просмотр MSG в Finder по пробелу: поля письма, HTML и встроенные картинки.
@@ -42,7 +42,7 @@ Download and unzip `MSG-Viewer-macOS.zip`, then move **MSG Viewer.app** to Appli
 
 To open `.msg` files by double-click: Finder → Get Info → Open with → MSG Viewer → Change All. Multiple messages open in separate windows.
 
-Current release: **1.3.0 (15)**. Settings (**⌘,**) include Russian/English/system language, appearance, per-message automatic sizing, a separate inline-image section and update frequency. Turn automatic sizing off to remember manual sizes. Compact Settings follow the message window’s display. The startup window fits all three toolbar buttons, and the app version appears at the bottom. Updates are checked only at launch, weekly by default, with every-launch/daily/monthly options. In Settings, Check now changes to Update when a newer version is found. The update badge at the top right and the Update button immediately start download, installation and restart, without an extra confirmation. Signed updates are verified before replacing the app; the previous version is restored if activation fails. Open messages are reopened after a successful update.
+Current release: **1.3.1 (16)**. Fixes window jumping during manual resizing. Settings (**⌘,**) include Russian/English/system language, appearance, per-message automatic sizing, a separate inline-image section and update frequency. Turn automatic sizing off to remember manual sizes. Compact Settings follow the message window’s display. The startup window fits all three toolbar buttons, and the app version appears at the bottom. Updates are checked only at launch, weekly by default, with every-launch/daily/monthly options. In Settings, Check now changes to Update when a newer version is found. The update badge at the top right and the Update button immediately start download, installation and restart, without an extra confirmation. Signed updates are verified before replacing the app; the previous version is restored if activation fails. Open messages are reopened after a successful update.
 
 Export the current message as EML from the toolbar or File menu (**⇧⌘E**). Preview MSG in Finder with the Space bar. Switch **HTML / TEXT / HEADERS**; **⌥⌘U** shows the original headers with copy, find and zoom. The minimum message-window width fits every toolbar action, including Back and Update, even when restoring or resizing.
 
